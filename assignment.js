@@ -69,8 +69,7 @@ function deliveryCost(quantity) {
 
 // problem 4
 function perfectFriend(array) {
-  for (let i = 0; i < array.length; i++) {
-    const element = array[i];
+  for (const element of array) {
     if (element.length === 5) {
       return element;
     }
